@@ -1,5 +1,5 @@
 # gatsby-plugin-antd
-Use Ant Design with Gatsby
+Use Ant Design with Gatsby. This plugin uses the babel-plugin-import to dynamically import Ant Design components.
 
 ## Install
 `npm install gatsby-plugin-antd --save`
