@@ -1,7 +1,11 @@
 {
   "name": "gatsby-plugin-antd",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Gatsby plugin to use Ant Design",
+  "respository": {
+  	"type": "git",
+  	"url": "https://github.com/bskimball/gatsby-plugin-antd"
+  },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
