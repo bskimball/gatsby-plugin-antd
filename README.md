@@ -1,5 +1,5 @@
 # gatsby-plugin-antd
-Use Ant Design with Gatsby. This plugin uses the babel-plugin-import to dynamically import Ant Design components.
+Use Ant Design with Gatsby
 
 ## Install
 `npm install gatsby-plugin-antd --save`
@@ -13,3 +13,14 @@ plugins: [
   'gatsby-plugin-antd'
 ]
 ```
+
+2. In your component(s) include the Ant Design component using dynamic imports as suggested here https://ant.design/docs/react/getting-started#Import-on-Demand
+
+```javascript
+// in your component
+import { Button } from 'antd'
+
+export default () => <Button type="primary">Primary</Button>
+```
+
+3. It will pull in the component and the relevant css file using babel-plugin-import
