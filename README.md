@@ -12,7 +12,15 @@ Use Ant Design with Gatsby
 plugins: [
   'gatsby-plugin-antd'
 ]
+// or if you want to use less
+plugins: [
+  resolve: 'gatsby-plugin-antd',
+  options: {
+    style: true
+  }
+]
 ```
+note: if you are using less then you need to install less
 
 2. In your component(s) include the Ant Design component using dynamic imports as suggested here https://ant.design/docs/react/getting-started#Import-on-Demand
 
