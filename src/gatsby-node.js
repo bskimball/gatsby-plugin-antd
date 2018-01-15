@@ -1,10 +1,10 @@
-exports.modifyBabelrc = ({ babelrc }) => {
+exports.modifyBabelrc = ( {babelrc}, {style} ) => {
   return {
     ...babelrc,
     plugins: babelrc.plugins.concat([
       ['import', {
         libraryName: 'antd',
-        style: 'css'
+        style: (style) ? 'style' : 'css'
       }]
     ])
   }
