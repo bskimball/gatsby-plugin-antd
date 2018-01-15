@@ -14,9 +14,11 @@ plugins: [
 ]
 // or if you want to use less
 plugins: [
-  resolve: 'gatsby-plugin-antd',
-  options: {
-    style: true
+  {
+      resolve: 'gatsby-plugin-antd',
+      options: {
+        style: true
+      }
   }
 ]
 ```
@@ -32,3 +34,4 @@ export default () => <Button type="primary">Primary</Button>
 ```
 
 3. It will pull in the component and the relevant css file using babel-plugin-import
+
