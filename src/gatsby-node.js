@@ -4,7 +4,7 @@ exports.modifyBabelrc = ( {babelrc}, {style} ) => {
     plugins: babelrc.plugins.concat([
       ['import', {
         libraryName: 'antd',
-        style: (style) ? 'style' : 'css'
+        style: (style) ? style : 'css'
       }]
     ])
   }
