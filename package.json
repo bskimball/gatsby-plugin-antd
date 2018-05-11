@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-antd",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Gatsby plugin to use Ant Design",
   "respository": {
   	"type": "git",
@@ -14,7 +14,7 @@
   "author": "Brian Kimball",
   "license": "MIT",
   "dependencies": {
-    "antd": "^3.4.4",
+    "antd": "^3.5.1",
     "babel-plugin-import": "^1.7.0"
   },
   "devDependencies": {
