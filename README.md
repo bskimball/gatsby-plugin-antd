@@ -1,6 +1,8 @@
 # gatsby-plugin-antd
 Use Ant Design with Gatsby
 
+** for Gatsby v2 please refer to the v2 branch https://github.com/bskimball/gatsby-plugin-antd/tree/v2 **
+
 ## Install
 `npm install gatsby-plugin-antd --save`
 
