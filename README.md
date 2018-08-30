@@ -1,3 +1,5 @@
+# This branch is for Gatsby v2
+
 # gatsby-plugin-antd
 Use Ant Design with Gatsby
 
