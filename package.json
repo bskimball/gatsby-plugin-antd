@@ -14,8 +14,8 @@
   "author": "Brian Kimball",
   "license": "MIT",
   "dependencies": {
-    "antd": "^3.5.1",
-    "babel-plugin-import": "^1.7.0"
+    "antd": "^3.8.0",
+    "babel-plugin-import": "^1.8.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
