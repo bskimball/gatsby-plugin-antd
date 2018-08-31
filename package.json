@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-antd",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Gatsby plugin to use Ant Design",
   "repository": {
   	"type": "git",
