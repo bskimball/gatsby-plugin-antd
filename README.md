@@ -1,4 +1,4 @@
-[![npm package](https://img.shields.io/npm/v/antd.svg?style=flat-square)](https://www.npmjs.org/package/gatsby-plugin-antd)
+[![npm package](https://img.shields.io/npm/v/gatsby-plugin-antd.svg?style=flat-square)](https://www.npmjs.org/package/gatsby-plugin-antd)
 
 # gatsby-plugin-antd
 Use Ant Design with Gatsby
