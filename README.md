@@ -4,7 +4,9 @@
 Use Ant Design with Gatsby
 
 ## Install
-`npm install gatsby-plugin-antd@^2.0.0 --save`
+`npm install antd gatsby-plugin-antd --save`
+for v1
+`npm install antd gatsby-plugin-antd^1.0.0 --save`
 
 ## How to use
 1. Include the plugin in your `gatsby-config.js` file.
