@@ -2,8 +2,9 @@ exports.onCreateBabelConfig = ({ actions }, { style }) => {
   actions.setBabelPlugin({
     name: `babel-plugin-import`,
     options: {
-      libraryName: 'antd',
-      style: (style === true) ? style : 'css',
-    },
-  })
-}
+      libraryName: "antd",
+      libraryDirectory: "es",
+      style: style === true ? style : "css"
+    }
+  });
+};
