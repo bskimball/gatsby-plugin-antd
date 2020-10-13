@@ -25,7 +25,9 @@ plugins: [
   {
     resolve: "gatsby-plugin-less",
     options: {
-      javascriptEnabled: true,
+      lessOptions: {
+         javascriptEnabled: true
+      }
     },
   }
 ]
