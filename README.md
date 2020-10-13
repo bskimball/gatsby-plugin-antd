@@ -4,7 +4,7 @@
 Use Ant Design with Gatsby
 
 ## Install
-`npm install antd gatsby-plugin-antd --save`
+`npm install antd gatsby-plugin-antd less gatsby-plugin-less --save`
 
 ## How to use
 1. Include the plugin in your `gatsby-config.js` file.
@@ -21,6 +21,14 @@ plugins: [
       options: {
         style: true
       }
+  },
+  {
+    resolve: "gatsby-plugin-less",
+    options: {
+      lessOptions: {
+         javascriptEnabled: true
+      }
+    },
   }
 ]
 ```
